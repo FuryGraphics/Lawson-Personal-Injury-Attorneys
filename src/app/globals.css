@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    /* Clears the sticky header when an anchor lands mid-page. */
+    scroll-padding-top: 6.5rem;
+  }
+
+  body {
+    @apply bg-night font-sans text-[17px] leading-[1.65] text-smoke antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display font-normal;
+  }
+
+  ::selection {
+    background-color: #C9CDE0;
+    color: #161822;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-content px-6 sm:px-10;
+  }
+
+  /* ---- Type scale ------------------------------------------------------ */
+
+  .display-xl {
+    font-size: clamp(2.6rem, 5.6vw, 4.5rem);
+    line-height: 0.98;
+    letter-spacing: -0.025em;
+  }
+
+  .display-lg {
+    font-size: clamp(2.2rem, 4.4vw, 3.4rem);
+    line-height: 1.04;
+    letter-spacing: -0.02em;
+  }
+
+  .display-md {
+    font-size: clamp(1.7rem, 2.6vw, 2.25rem);
+    line-height: 1.14;
+    letter-spacing: -0.015em;
+  }
+
+  /* Emphasis inside a headline — italic serif in crest, never a highlight box. */
+  .em-crest {
+    @apply font-display italic text-crest;
+  }
+
+  .em-crest-deep {
+    @apply font-display italic text-crest-deep;
+  }
+
+  /* Small uppercase label. Section eyebrows, nav, buttons, data. */
+  .label {
+    @apply text-[11px] font-medium uppercase tracking-[0.24em];
+  }
+
+  .measure {
+    @apply max-w-measure;
+  }
+
+  /* ---- The crest underline ---------------------------------------------- */
+  /* The brief's signature device: a rule sitting beneath every H1 and section
+     heading. Animated in on load; scaleX so it draws left-to-right. */
+
+  .underline-crest {
+    @apply block h-[3px] w-20 origin-left bg-crest;
+  }
+
+  .underline-crest-anim {
+    @apply underline-crest animate-underline-in;
+  }
+
+  /* ---- Buttons — one style, site-wide ---------------------------------- */
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2.5 px-7 py-4 text-[11px]
+           font-medium uppercase tracking-[0.18em] transition-all duration-200
+           focus:outline-none focus-visible:ring-2 focus-visible:ring-crest
+           focus-visible:ring-offset-2 focus-visible:ring-offset-night;
+  }
+
+  /* Primary: crest fill, dark text. Identical on every page, per the brief. */
+  .btn-crest {
+    @apply btn bg-crest text-night hover:bg-crest-bright;
+  }
+
+  .btn-outline-light {
+    @apply btn border border-white/25 text-white hover:border-crest hover:text-crest;
+  }
+
+  .btn-outline-dark {
+    @apply btn border border-night/25 text-night hover:border-night hover:bg-night hover:text-bone
+           focus-visible:ring-offset-bone;
+  }
+
+  /* ---- Long-form legal copy (disclaimer, privacy) ---------------------- */
+
+  .prose-legal p {
+    @apply mb-5 max-w-measure leading-[1.75];
+  }
+
+  .prose-legal h2 {
+    @apply mb-3 mt-12 text-2xl text-night;
+  }
+
+  .prose-legal h3 {
+    @apply mb-2 mt-8 text-xl text-night;
+  }
+
+  .prose-legal a {
+    @apply text-crest-deep underline underline-offset-2 hover:text-night;
+  }
+
+  .prose-legal ul {
+    @apply mb-5 max-w-measure list-none space-y-2.5 pl-0;
+  }
+
+  .prose-legal li {
+    @apply relative pl-6 before:absolute before:left-0 before:text-crest-deep before:content-['—'];
+  }
+}
+
+@layer utilities {
+  /* Grain over photography so images sit inside the palette rather than on it. */
+  .grain::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.3;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
+  }
+}
