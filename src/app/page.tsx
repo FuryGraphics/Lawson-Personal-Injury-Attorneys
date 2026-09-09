@@ -124,8 +124,8 @@ export default function HomePage() {
               motorcycle and pedestrian cases, premises liability, and wrongful death.
             </p>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-              <Link href="/attorney" className="btn-crest">
-                About {site.attorneyShort}
+              <Link href="/attorneys" className="btn-crest">
+                Meet the Attorneys
               </Link>
               <Link href="/testimonials" className="btn-outline-light">
                 Client Reviews

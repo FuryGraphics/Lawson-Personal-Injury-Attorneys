@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { publishedPosts } from '@/lib/blog';
+import { attorneySlugs } from '@/lib/attorneys';
 import { locationPages } from '@/lib/locations';
 import { practicePaths } from '@/lib/practice';
 import { site } from '@/lib/site';
@@ -19,7 +20,7 @@ const staticRoutes: Entry[] = [
   { path: '/personal-injury', priority: 0.9, changeFrequency: 'monthly' },
   { path: '/practice-areas', priority: 0.9, changeFrequency: 'monthly' },
   { path: '/contact', priority: 0.9, changeFrequency: 'monthly' },
-  { path: '/attorney', priority: 0.8, changeFrequency: 'monthly' },
+  { path: '/attorneys', priority: 0.8, changeFrequency: 'monthly' },
   { path: '/personal-injury/faq', priority: 0.8, changeFrequency: 'monthly' },
   { path: '/testimonials', priority: 0.6, changeFrequency: 'weekly' },
   { path: '/blog', priority: 0.6, changeFrequency: 'weekly' },
@@ -41,6 +42,12 @@ const locationRoutes: Entry[] = locationPages.map((l) => ({
   changeFrequency: 'monthly',
 }));
 
+const attorneyRoutes: Entry[] = attorneySlugs.map((slug) => ({
+  path: `/attorneys/${slug}`,
+  priority: 0.7,
+  changeFrequency: 'monthly',
+}));
+
 const blogRoutes: Entry[] = publishedPosts.map((p) => ({
   path: `/blog/${p.slug}`,
   priority: 0.5,
@@ -49,7 +56,7 @@ const blogRoutes: Entry[] = publishedPosts.map((p) => ({
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();
-  return [...staticRoutes, ...practiceRoutes, ...locationRoutes, ...blogRoutes].map((r) => ({
+  return [...staticRoutes, ...practiceRoutes, ...attorneyRoutes, ...locationRoutes, ...blogRoutes].map((r) => ({
     url: `${site.url}${r.path === '/' ? '' : r.path}`,
     lastModified,
     changeFrequency: r.changeFrequency,

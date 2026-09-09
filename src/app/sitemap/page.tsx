@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import JsonLd from '@/components/JsonLd';
+import { attorneys } from '@/lib/attorneys';
 import { blogPosts } from '@/lib/blog';
 import { locationPages } from '@/lib/locations';
 import { practiceByGroup, practiceHref } from '@/lib/practice';
@@ -21,7 +22,8 @@ export const metadata = pageMeta({
 
 const coreLinks = [
   { label: 'Home', href: '/' },
-  { label: `Attorney ${site.attorneyShort}`, href: '/attorney' },
+  { label: 'Our Attorneys', href: '/attorneys' },
+  ...attorneys.map((a) => ({ label: a.name, href: `/attorneys/${a.slug}` })),
   { label: 'Practice Areas', href: '/practice-areas' },
   { label: 'Client Reviews', href: '/testimonials' },
   { label: 'Blog', href: '/blog' },

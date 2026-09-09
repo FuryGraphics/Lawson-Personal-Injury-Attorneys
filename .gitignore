@@ -8,3 +8,4 @@ tsconfig.tsbuildinfo
 
 # Client source material — not web assets, not served.
 client-assets/
+.next-build

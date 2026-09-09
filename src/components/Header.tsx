@@ -9,7 +9,7 @@ import { locationLinks } from '@/lib/locations';
 import { site } from '@/lib/site';
 
 const primaryLinks = [
-  { label: 'Attorney', href: '/attorney' },
+  { label: 'Attorneys', href: '/attorneys' },
   { label: 'Practice Areas', href: '/practice-areas' },
 ];
 
@@ -124,8 +124,8 @@ export default function Header() {
         </Link>
 
         <nav className="hidden items-center gap-7 lg:flex" aria-label="Primary">
-          <NavLink href="/attorney" active={pathname.startsWith('/attorney')}>
-            Attorney
+          <NavLink href="/attorneys" active={pathname.startsWith('/attorneys')}>
+            Attorneys
           </NavLink>
 
           <div onMouseEnter={openDrop} onMouseLeave={closeDrop}>

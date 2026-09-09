@@ -84,7 +84,7 @@ export default function Footer() {
           </FooterCol>
 
           <FooterCol title="Firm">
-            <FooterLink href="/attorney">Attorney {site.attorneyShort}</FooterLink>
+            <FooterLink href="/attorneys">Our Attorneys</FooterLink>
             <FooterLink href="/practice-areas">Practice Areas</FooterLink>
             <FooterLink href="/testimonials">Reviews</FooterLink>
             <FooterLink href="/blog">Blog</FooterLink>

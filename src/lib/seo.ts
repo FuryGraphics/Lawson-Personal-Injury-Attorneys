@@ -122,6 +122,10 @@ export function legalServiceSchema() {
       'Wrongful death claims',
     ],
     founder: { '@type': 'Person', name: site.attorney },
+    employee: [
+      { '@type': 'Person', name: 'Yari D. Lawson', jobTitle: 'Attorney and Founder' },
+      { '@type': 'Person', name: 'Boris Y. Milter', jobTitle: 'Senior Associate Attorney' },
+    ],
     openingHoursSpecification: [openingHours],
     ...(sameAs.length ? { sameAs } : {}),
   };
@@ -151,20 +155,26 @@ export function localBusinessSchema(opts: { path: string; cityName: string; desc
   };
 }
 
-export function attorneySchema() {
+export function attorneySchema(a: {
+  slug: string;
+  name: string;
+  title: string;
+  email: string;
+  languages: string[];
+}) {
   return {
     '@context': 'https://schema.org',
     '@type': 'Attorney',
-    '@id': `${site.url}/attorney#person`,
-    name: site.attorney,
-    jobTitle: 'Attorney and Founder',
-    url: `${site.url}/attorney`,
+    '@id': `${site.url}/attorneys/${a.slug}#person`,
+    name: a.name,
+    jobTitle: a.title,
+    url: `${site.url}/attorneys/${a.slug}`,
     telephone: site.phone,
-    email: site.email,
+    email: a.email,
     address: postalAddress,
     worksFor: { '@type': 'LegalService', '@id': `${site.url}/#organization`, name: site.name },
-    areaServed: areaServed,
+    areaServed,
     knowsAbout: ['Personal injury law', 'Georgia civil litigation', 'Insurance claims'],
-    ...(sameAs.length ? { sameAs } : {}),
+    ...(a.languages.length ? { knowsLanguage: a.languages } : {}),
   };
 }

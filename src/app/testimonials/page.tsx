@@ -5,7 +5,7 @@ import JsonLd from '@/components/JsonLd';
 import Reveal from '@/components/Reveal';
 import ReviewsWidget from '@/components/ReviewsWidget';
 import Section from '@/components/Section';
-import { attorneyProfile } from '@/lib/attorney';
+import { attorneys, firmApproach } from '@/lib/attorneys';
 import { photos } from '@/lib/images';
 import { breadcrumbSchema, pageMeta } from '@/lib/seo';
 import { RESULTS_DISCLAIMER, site } from '@/lib/site';
@@ -21,6 +21,8 @@ export const metadata = pageMeta({
     'Read verified Google reviews for Lawson Personal Injury Attorneys in Lawrenceville and Atlanta, GA. Free case review, and no fee unless we win your case.',
   path: '/testimonials',
 });
+
+const allResults = attorneys.flatMap((a) => a.results);
 
 export default function TestimonialsPage() {
   return (
@@ -67,7 +69,7 @@ export default function TestimonialsPage() {
 
       {/* Case results appear only once the client supplies substantiable figures.
           See the TODO block in lib/attorney. */}
-      {attorneyProfile.results.length > 0 && (
+      {allResults.length > 0 && (
         <Section
           tone="bone"
           label="Case results"
@@ -76,7 +78,7 @@ export default function TestimonialsPage() {
           split
         >
           <ul className="grid gap-px bg-night/10 sm:grid-cols-2 lg:grid-cols-3">
-            {attorneyProfile.results.map((r, i) => (
+            {allResults.map((r, i) => (
               <Reveal key={i} as="li" delay={i * 0.05} className="bg-bone p-8">
                 <p className="font-display text-[2.2rem] leading-none text-crest-deep">{r.amount}</p>
                 <p className="label mt-4 text-ash/70">{r.caseType}</p>
@@ -98,7 +100,7 @@ export default function TestimonialsPage() {
         split
       >
         <ul className="grid gap-px bg-night/10 sm:grid-cols-2">
-          {attorneyProfile.approach.map((a, i) => (
+          {firmApproach.map((a, i) => (
             <Reveal key={a.title} as="li" delay={i * 0.06} className="bg-bone p-8 lg:p-9">
               <span className="block h-[3px] w-10 bg-crest-deep" aria-hidden="true" />
               <h3 className="mt-6 font-display text-[1.4rem] text-night">{a.title}</h3>
@@ -112,7 +114,7 @@ export default function TestimonialsPage() {
         <Reveal className="grid gap-10 lg:grid-cols-[1fr_auto] lg:items-center">
           <div>
             <h2 className="display-md max-w-[24ch] text-white">
-              Want to talk to {site.attorneyShort} before you decide?
+              Want to talk to an attorney before you decide?
             </h2>
             <span className="underline-crest mt-6" aria-hidden="true" />
             <p className="mt-6 max-w-measure leading-relaxed text-smoke">
@@ -124,14 +126,14 @@ export default function TestimonialsPage() {
             <Link href="/contact" className="btn-crest">
               Free Case Review
             </Link>
-            <Link href="/attorney" className="btn-outline-light">
-              About the attorney
+            <Link href="/attorneys" className="btn-outline-light">
+              Meet the attorneys
             </Link>
           </div>
         </Reveal>
       </Section>
 
-      <CTABand secondary={{ label: 'About the attorney', href: '/attorney' }} />
+      <CTABand secondary={{ label: 'Meet the attorneys', href: '/attorneys' }} />
     </>
   );
 }
