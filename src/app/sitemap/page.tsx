@@ -15,7 +15,7 @@ const crumbs = [
 export const metadata = pageMeta({
   title: 'Sitemap',
   description:
-    'Every page on the Lawson Personal Injury Attorneys website — practice areas, service areas, attorney profile, blog, and firm information. Call (404) 394-9410.',
+    'Every page on the Lawson Personal Injury Attorneys website — practice areas, service areas, attorney profile, blog, and firm information. Call (678) 446-3655.',
   path: '/sitemap',
 });
 

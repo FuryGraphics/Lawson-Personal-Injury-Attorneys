@@ -48,15 +48,10 @@ export default async function PracticeSubPage({ params }: Params) {
   ];
 
   /* Keyed off the nav group so a new case type inherits the right backdrop
-     automatically. Only the vehicle and civic groups get a photograph — there is
-     no honest stock image for a brain injury or an assault claim, and reaching
-     for one would be worse than the gradient. */
-  const heroImage =
-    page.group === 'Motor Vehicle Accidents'
-      ? photos.highwayAmber
-      : page.group === 'Professional & Product Claims' || page.group === 'Work Injuries'
-        ? photos.courthouse
-        : undefined;
+     automatically. Only the vehicle group gets a photograph — there is no
+     honest stock image for a brain injury, a wrongful death, or an assault
+     claim, and reaching for one would be worse than the gradient. */
+  const heroImage = page.group === 'Motor Vehicle Accidents' ? photos.highwayAmber : undefined;
 
   return (
     <>
@@ -65,7 +60,7 @@ export default async function PracticeSubPage({ params }: Params) {
       <Hero crumbs={crumbs} image={heroImage} label={page.label} title={page.h1} deck={page.deck} />
 
       <Section tone="night">
-        <Reveal className={`grid gap-12 ${page.nonTort ? '' : 'lg:grid-cols-[1.1fr_0.9fr]'}`}>
+        <Reveal className="grid gap-12 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="space-y-5 text-[17px] leading-[1.75] text-smoke">
             {page.intro.map((p, i) => (
               <p key={i} className="max-w-measure">
@@ -73,15 +68,9 @@ export default async function PracticeSubPage({ params }: Params) {
               </p>
             ))}
           </div>
-          {/* Workers' comp, malpractice, and bad faith run on their own
-              deadlines — showing the generic two-year notice beside them would
-              be actively misleading. Those pages state their rule in the
-              Georgia-law section instead. */}
-          {!page.nonTort && (
-            <div className="lg:pt-4">
-              <DeadlineNotice tone="night" />
-            </div>
-          )}
+          <div className="lg:pt-4">
+            <DeadlineNotice tone="night" />
+          </div>
         </Reveal>
       </Section>
 

@@ -5,13 +5,13 @@ import type { PracticePage } from './types';
 export const brainInjury: PracticePage = {
   slug: 'brain-injury',
   navLabel: 'Brain Injury',
-  group: 'Serious & Catastrophic Injury',
+  group: 'Catastrophic & Wrongful Death',
   featured: true,
   h1: 'Atlanta Traumatic Brain Injury Lawyer',
   targetKeyword: 'Brain Injury Lawyer Atlanta GA',
   metaTitle: 'Traumatic Brain Injury Lawyer Atlanta GA',
   metaDescription:
-    'Traumatic brain injury in Atlanta? TBI claims turn on proving an injury that scans often miss. Free case review, no fee unless we win — (404) 394-9410.',
+    'Traumatic brain injury in Atlanta? TBI claims turn on proving an injury that scans often miss. Free case review, no fee unless we win — (678) 446-3655.',
   label: 'Case type',
   deck: 'A normal CT scan does not mean a normal brain. Most of the work in a TBI case is proving that.',
   cardBlurb:
@@ -59,13 +59,13 @@ export const brainInjury: PracticePage = {
 export const catastrophicInjuries: PracticePage = {
   slug: 'catastrophic-injuries',
   navLabel: 'Catastrophic Injuries',
-  group: 'Serious & Catastrophic Injury',
+  group: 'Catastrophic & Wrongful Death',
   featured: true,
   h1: 'Atlanta Catastrophic Injury Lawyer',
   targetKeyword: 'Catastrophic Injury Lawyer Atlanta GA',
   metaTitle: 'Catastrophic Injury Lawyer Atlanta GA',
   metaDescription:
-    'Life-altering injury in Atlanta? Catastrophic claims turn on proving lifetime care and lost earning capacity. Free review — call (404) 394-9410 today.',
+    'Life-altering injury in Atlanta? Catastrophic claims turn on proving lifetime care and lost earning capacity. Free review — call (678) 446-3655 today.',
   label: 'Case type',
   deck: 'When an injury is permanent, the case stops being about medical bills and becomes about the next forty years.',
   cardBlurb:
@@ -113,12 +113,12 @@ export const catastrophicInjuries: PracticePage = {
 export const childInjuries: PracticePage = {
   slug: 'child-injuries',
   navLabel: 'Child Injuries',
-  group: 'Serious & Catastrophic Injury',
+  group: 'Catastrophic & Wrongful Death',
   h1: 'Atlanta Child Injury Lawyer',
   targetKeyword: 'Child Injury Lawyer Atlanta GA',
   metaTitle: 'Child Injury Lawyer Atlanta GA',
   metaDescription:
-    'Your child was hurt by someone else’s negligence in Atlanta? Georgia protects minors’ claims differently. Free, private consultation — (404) 394-9410.',
+    'Your child was hurt by someone else’s negligence in Atlanta? Georgia protects minors’ claims differently. Free, private consultation — (678) 446-3655.',
   label: 'Case type',
   deck: 'Georgia does not judge a child by an adult standard — and it does not let anyone settle a child’s claim quietly.',
   cardBlurb:
@@ -166,12 +166,12 @@ export const childInjuries: PracticePage = {
 export const dogBites: PracticePage = {
   slug: 'dog-bites',
   navLabel: 'Dog Bites',
-  group: 'Premises & Security',
+  group: 'Premises, Property & Workplace',
   h1: 'Atlanta Dog Bite Lawyer',
   targetKeyword: 'Dog Bite Lawyer Atlanta GA',
   metaTitle: 'Dog Bite Lawyer Atlanta GA',
   metaDescription:
-    'Bitten by a dog in Georgia? These claims usually turn on a leash law violation or a known vicious propensity. Free review — call (404) 394-9410 today.',
+    'Bitten by a dog in Georgia? These claims usually turn on a leash law violation or a known vicious propensity. Free review — call (678) 446-3655 today.',
   label: 'Case type',
   deck: 'Georgia is not a strict liability state for dog bites. What usually carries these cases is the local leash ordinance.',
   cardBlurb:

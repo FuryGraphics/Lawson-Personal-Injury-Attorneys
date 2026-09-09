@@ -20,7 +20,7 @@ const crumbs = [
 export const metadata = pageMeta({
   title: 'Personal Injury FAQ Atlanta GA',
   description:
-    'Answers to common Georgia personal injury questions: filing deadlines, comparative fault, insurance, case value, and fees. Free review — (404) 394-9410.',
+    'Answers to common Georgia personal injury questions: filing deadlines, comparative fault, insurance, case value, and fees. Free review — (678) 446-3655.',
   path: '/personal-injury/faq',
 });
 

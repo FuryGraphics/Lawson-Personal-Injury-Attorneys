@@ -24,7 +24,7 @@ const lightHeroPages = new Set(['/disclaimer', '/privacy-policy', '/sitemap']);
 
 /**
  * Transparent over the hero, solid once scrolled — the behaviour specified in
- * the brief. The Personal Injury mega-menu carries all 24 case types in five
+ * the brief. The Personal Injury mega-menu carries all 19 case types in three
  * grouped columns so the top level stays short.
  */
 export default function Header() {
@@ -161,8 +161,8 @@ export default function Header() {
             </button>
 
             {dropOpen && (
-              /* Full-width mega-menu. Twenty-four case types do not fit in a
-                 single dropdown column, so they render as the five groups
+              /* Full-width mega-menu. Nineteen case types do not fit in a
+                 single dropdown column, so they render as the three groups
                  defined in the registry.
 
                  Anchored to the header with top-full rather than a fixed

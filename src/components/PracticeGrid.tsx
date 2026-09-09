@@ -5,9 +5,9 @@ import Reveal from './Reveal';
 /**
  * The case-type grid.
  *
- * Defaults to the six featured types — a wall of all twenty-four is a worse
- * front door than a curated set, and every surface that uses this also links to
- * the full index. Pass `all` on the pages whose job is to be exhaustive.
+ * Defaults to the featured set — a wall of all nineteen is a worse front door
+ * than a curated one, and every surface that uses this also links to the full
+ * index. Pass `all` on the pages whose job is to be exhaustive.
  */
 export default function PracticeGrid({
   tone = 'night',

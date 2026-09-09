@@ -16,7 +16,7 @@ const crumbs = [
 export const metadata = pageMeta({
   title: 'Atlanta Personal Injury Legal Tips',
   description:
-    'Plain-English guidance on Georgia personal injury law: filing deadlines, what to do after a crash, case value, and premises liability. Call (404) 394-9410.',
+    'Plain-English guidance on Georgia personal injury law: filing deadlines, what to do after a crash, case value, and premises liability. Call (678) 446-3655.',
   path: '/blog',
 });
 

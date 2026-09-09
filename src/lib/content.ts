@@ -54,8 +54,8 @@ export const differentiators: Differentiator[] = [
     body: 'Not a case manager relaying messages. At a firm this size the person evaluating your claim is the person you call, and you get a straight answer about where it stands.',
   },
   {
-    title: 'Injury work is the practice',
-    body: 'Not one department among several. Every case in the office is an injury case, which makes the adjusters, the defense playbooks, and the Georgia courts familiar ground rather than occasional.',
+    title: 'Personal injury is all we do',
+    body: 'Not one department among several. Every case in this office is an injury case, which makes the insurance adjusters, the defense playbooks, and the Georgia courts familiar ground rather than occasional.',
   },
   {
     title: 'Prepared as though it will be tried',

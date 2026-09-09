@@ -49,8 +49,8 @@ export default function Footer() {
         </div>
 
         <div className="grid gap-12 py-14 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
-          {/* Two columns of grouped case types — twenty-four links in one
-              stack makes the footer taller than most of the pages above it. */}
+          {/* Two columns of grouped case types — nineteen links in one stack
+              makes the footer taller than most of the pages above it. */}
           <FooterCol title="Practice Areas">
             <FooterLink href="/personal-injury">Personal Injury Overview</FooterLink>
             {practiceByGroup.slice(0, 2).map((g) => (

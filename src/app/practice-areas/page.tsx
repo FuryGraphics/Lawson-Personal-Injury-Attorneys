@@ -19,7 +19,7 @@ const crumbs = [
 export const metadata = pageMeta({
   title: 'Atlanta GA Personal Injury Law Firm',
   description:
-    'Atlanta personal injury law firm handling car, truck, motorcycle and pedestrian accidents, slip and fall, and wrongful death. Call (404) 394-9410 today.',
+    'Atlanta personal injury law firm handling car, truck, motorcycle and pedestrian accidents, slip and fall, and wrongful death. Call (678) 446-3655 today.',
   path: '/practice-areas',
 });
 
@@ -37,7 +37,7 @@ export default function PracticeAreasPage() {
             An Atlanta <span className="em-crest">personal injury</span> law firm
           </>
         }
-        deck="Twenty-four case types, and a single question underneath all of them: who is responsible, and what is the harm actually worth?"
+        deck="Serious injury and wrongful death cases across metro Atlanta, and a single question underneath all of them: who is responsible, and what is the harm actually worth?"
       />
 
       <Section tone="night">
@@ -45,22 +45,26 @@ export default function PracticeAreasPage() {
           <div>
             <p className="label mb-4 text-crest">The firm</p>
             <h2 className="display-md max-w-[18ch] text-white">
-              Injury work is the whole practice
+              Personal injury is all we do
             </h2>
             <span className="underline-crest mt-6" aria-hidden="true" />
             <div className="mt-8 space-y-5 text-[17px] leading-[1.75] text-smoke">
               <p className="max-w-measure">
-                Lawson Personal Injury Attorneys represents injured people. That covers more ground than
-                it sounds like — vehicle collisions, unsafe property, workplace injury, defective
-                products, medical negligence, and insurers that will not pay — but it is one kind of
-                work. Injury law is not a body of statutes you learn once; it is a working knowledge of
-                how particular insurers evaluate particular claims, which defense arguments recur, what
-                a Georgia jury does with disputed liability, and how a file has to be built in the
-                first month to still be worth something in the eighteenth.
+                Lawson Personal Injury Attorneys represents people who have been seriously hurt, and the
+                families of people who have been killed, by someone else’s carelessness. We do not
+                handle divorces, closings, wills, or criminal cases. Personal injury is the only thing
+                this office does.
               </p>
               <p className="max-w-measure">
-                That knowledge only accumulates if injury work is the whole practice rather than one
-                revenue line among several. It is. The adjusters are familiar, the defense playbooks are
+                That focus is a practical decision. Personal injury law is not a body of statutes you
+                learn once — it is a working knowledge of how particular insurers evaluate particular
+                claims, which defense arguments recur, what a Georgia jury does with disputed
+                liability, and how a file has to be built in the first month to still be worth
+                something in the eighteenth.
+              </p>
+              <p className="max-w-measure">
+                That knowledge only accumulates if it is the whole practice rather than one revenue line
+                among several. Here it is. The adjusters are familiar, the defense playbooks are
                 familiar, and the courts in Gwinnett, Fulton, and DeKalb counties are familiar.
               </p>
               <p className="max-w-measure">
@@ -82,7 +86,7 @@ export default function PracticeAreasPage() {
         tone="bone"
         label="Case types"
         title="What we handle"
-        intro="All twenty-four, grouped by the kind of claim. If none fits exactly, call — most injury claims belong in one of these even when they do not look like it at first."
+        intro="Grouped by the kind of claim. If none fits exactly, call — most injury claims belong in one of these even when they do not look like it at first."
         split
       >
         <PracticeGrid tone="bone" all />

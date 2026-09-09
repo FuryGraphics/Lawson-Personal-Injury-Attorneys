@@ -18,7 +18,7 @@ export const carAccidents: PracticePage = {
   targetKeyword: 'Car Accident Lawyer Atlanta GA',
   metaTitle: 'Car Accident Lawyer Atlanta GA',
   metaDescription:
-    'Injured in an Atlanta car accident? We handle Georgia crash and uninsured motorist claims with no fee unless we win. Call (404) 394-9410 for a free review.',
+    'Injured in an Atlanta car accident? We handle Georgia crash and uninsured motorist claims with no fee unless we win. Call (678) 446-3655 for a free review.',
   label: 'Case type',
   deck: 'The insurance company opened a file on your crash within hours. You should have someone doing the same for you.',
   cardBlurb:
@@ -126,7 +126,7 @@ export const truckAccidents: PracticePage = {
   targetKeyword: 'Truck Accident Lawyer Atlanta GA',
   metaTitle: 'Truck Accident Lawyer Atlanta GA',
   metaDescription:
-    'Hit by a commercial truck in Atlanta? We pursue trucking companies under federal safety rules. Free case review, no fee unless we win — (404) 394-9410.',
+    'Hit by a commercial truck in Atlanta? We pursue trucking companies under federal safety rules. Free case review, no fee unless we win — (678) 446-3655.',
   label: 'Case type',
   deck: 'A trucking company can have investigators at the scene before the road reopens. The evidence that decides your case starts disappearing that fast.',
   cardBlurb:
@@ -234,7 +234,7 @@ export const motorcycleAccidents: PracticePage = {
   targetKeyword: 'Motorcycle Accident Lawyer Atlanta GA',
   metaTitle: 'Motorcycle Accident Lawyer Atlanta GA',
   metaDescription:
-    'Motorcycle crash in Atlanta or Gwinnett County? We push back on rider bias and build the claim your injuries deserve. Free case review — call (404) 394-9410.',
+    'Motorcycle crash in Atlanta or Gwinnett County? We push back on rider bias and build the claim your injuries deserve. Free case review — call (678) 446-3655.',
   label: 'Case type',
   deck: 'Riders start these cases behind. The first job is dismantling the assumption that you were the reckless one.',
   cardBlurb:

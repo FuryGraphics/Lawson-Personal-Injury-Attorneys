@@ -1,17 +1,18 @@
 /** The five columns the 24 case types are grouped into, in nav order. */
 export type PracticeGroup =
+  | 'Catastrophic & Wrongful Death'
   | 'Motor Vehicle Accidents'
-  | 'Premises & Security'
-  | 'Serious & Catastrophic Injury'
-  | 'Work Injuries'
-  | 'Professional & Product Claims';
+  | 'Premises, Property & Workplace';
 
+/**
+ * Order matters — it is the order of the nav columns and of every card grid.
+ * Catastrophic and wrongful death lead deliberately: those are the cases the
+ * firm is built around, and putting car accidents first buried them.
+ */
 export const practiceGroupOrder: PracticeGroup[] = [
+  'Catastrophic & Wrongful Death',
   'Motor Vehicle Accidents',
-  'Premises & Security',
-  'Serious & Catastrophic Injury',
-  'Work Injuries',
-  'Professional & Product Claims',
+  'Premises, Property & Workplace',
 ];
 
 export type Faq = { q: string; a: string };
@@ -26,17 +27,10 @@ export type PracticePage = {
   /** Which nav column this belongs in. */
   group: PracticeGroup;
   /**
-   * Surfaced on the homepage grid and listed first inside its nav group.
-   * Six of the twenty-four — a grid of all 24 on the homepage is unusable.
+   * Surfaced on the homepage grid, in registry order. Nine of the nineteen —
+   * a grid of all of them on the homepage is unusable.
    */
   featured?: boolean;
-  /**
-   * True where the claim is NOT a standard negligence action — workers'
-   * compensation, medical malpractice, bad faith. These carry different
-   * deadlines and procedures, so the pages suppress the generic two-year
-   * DeadlineNotice and state their own rule instead.
-   */
-  nonTort?: boolean;
   /** Page H1. */
   h1: string;
   /** The keyword this page is built to rank for. */

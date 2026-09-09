@@ -14,10 +14,13 @@ export const site = {
   attorneyShort: 'Yari Lawson',
   url: 'https://www.lawsonfirm.com',
 
-  phone: '(404) 394-9410',
-  phoneHref: 'tel:+14043949410',
-  email: 'yari@lawsonfirm.com',
-  emailHref: 'mailto:yari@lawsonfirm.com',
+  // Office line. TODO(client): the Google Business Profile must show this same
+  // number — a mismatch between the site and the GBP splits the firm's local
+  // signal. (678) 446-3655 was the cell number given on the intake form.
+  phone: '(678) 446-3655',
+  phoneHref: 'tel:+16784463655',
+  email: 'info@lawsonfirm.com',
+  emailHref: 'mailto:info@lawsonfirm.com',
 
   address: {
     street: '320 S Perry St',

@@ -20,7 +20,7 @@ const crumbs = [
 export const metadata = pageMeta({
   title: 'Free Consultation — Atlanta Personal Injury Lawyer',
   description:
-    'Request a free consultation with an Atlanta personal injury lawyer. Call (404) 394-9410 or send a message. No fee unless we win your case. Se responde rápido.',
+    'Request a free consultation with an Atlanta personal injury lawyer. Call (678) 446-3655 or send a message. No fee unless we win your case. Se responde rápido.',
   path: '/contact',
 });
 

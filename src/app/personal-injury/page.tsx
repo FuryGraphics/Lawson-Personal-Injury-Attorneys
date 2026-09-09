@@ -22,7 +22,7 @@ const crumbs = [
 export const metadata = pageMeta({
   title: 'Personal Injury Lawyer Atlanta GA',
   description:
-    'Personal injury lawyer serving Atlanta and Gwinnett County, GA. We handle the insurer, the evidence, and the deadlines. Free case review — call (404) 394-9410.',
+    'Personal injury lawyer serving Atlanta and Gwinnett County, GA. We handle the insurer, the evidence, and the deadlines. Free case review — call (678) 446-3655.',
   path: '/personal-injury',
 });
 
@@ -94,7 +94,7 @@ export default function PersonalInjuryPage() {
         tone="bone"
         label="Case types"
         title="Every way these cases arrive"
-        intro="Each has its own evidence, its own defenses, and its own corner of Georgia law. Some — workers' compensation, malpractice, bad faith — run on deadlines of their own."
+        intro="Each has its own evidence, its own defenses, and its own corner of Georgia law."
         split
       >
         <PracticeGrid tone="bone" all />

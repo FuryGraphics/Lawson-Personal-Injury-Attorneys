@@ -11,7 +11,7 @@ export const pedestrianAccidents: PracticePage = {
   targetKeyword: 'Pedestrian Accident Lawyer Atlanta GA',
   metaTitle: 'Pedestrian Accident Lawyer Atlanta GA',
   metaDescription:
-    'Struck by a car while walking in Atlanta? We handle crosswalk, school zone, and hit-and-run pedestrian claims. Free consultation — call (404) 394-9410 today.',
+    'Struck by a car while walking in Atlanta? We handle crosswalk, school zone, and hit-and-run pedestrian claims. Free consultation — call (678) 446-3655 today.',
   label: 'Case type',
   deck: 'There is nothing between a person on foot and a two-ton vehicle. The injuries reflect that, and so should the claim.',
   cardBlurb:
@@ -113,13 +113,13 @@ export const pedestrianAccidents: PracticePage = {
 export const slipAndFall: PracticePage = {
   slug: 'slip-and-fall',
   navLabel: 'Slip and Fall',
-  group: 'Premises & Security',
+  group: 'Premises, Property & Workplace',
   featured: true,
   h1: 'Atlanta Slip and Fall Lawyer',
   targetKeyword: 'Slip and Fall Lawyer Atlanta GA',
   metaTitle: 'Slip and Fall Lawyer Atlanta GA',
   metaDescription:
-    'Hurt on someone else’s property in Atlanta? We handle Georgia premises liability claims against stores, landlords, and businesses. Free review — (404) 394-9410.',
+    'Hurt on someone else’s property in Atlanta? We handle Georgia premises liability claims against stores, landlords, and businesses. Free review — (678) 446-3655.',
   label: 'Case type',
   deck: 'Premises cases are won or lost on what the property owner knew, and when they knew it.',
   cardBlurb:
@@ -221,13 +221,13 @@ export const slipAndFall: PracticePage = {
 export const wrongfulDeath: PracticePage = {
   slug: 'wrongful-death',
   navLabel: 'Wrongful Death',
-  group: 'Serious & Catastrophic Injury',
+  group: 'Catastrophic & Wrongful Death',
   featured: true,
   h1: 'Atlanta Wrongful Death Lawyer',
   targetKeyword: 'Wrongful Death Lawyer Atlanta GA',
   metaTitle: 'Wrongful Death Lawyer Atlanta GA',
   metaDescription:
-    'Lost a family member to negligence in Georgia? We handle Atlanta wrongful death claims with care and persistence. Free, private consultation — (404) 394-9410.',
+    'Lost a family member to negligence in Georgia? We handle Atlanta wrongful death claims with care and persistence. Free, private consultation — (678) 446-3655.',
   label: 'Case type',
   deck: 'Nothing about a claim replaces the person. What it can do is hold someone answerable and steady the people left behind.',
   cardBlurb:
@@ -252,7 +252,7 @@ export const wrongfulDeath: PracticePage = {
     },
     {
       title: 'Workplace and construction fatalities',
-      body: 'Third-party claims that exist alongside workers’ compensation when someone other than the employer contributed.',
+      body: 'Claims against a party other than the employer — a contractor, an equipment maker, a property owner — whose negligence contributed.',
     },
     {
       title: 'Nursing home and care facility deaths',

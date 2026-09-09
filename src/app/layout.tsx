@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     template: `%s | ${site.name}`,
   },
   description:
-    'Lawson Personal Injury Attorneys represents injured people across Atlanta and Gwinnett County, GA. Free case review, no fee unless we win — (404) 394-9410.',
+    'Lawson Personal Injury Attorneys represents injured people across Atlanta and Gwinnett County, GA. Free case review, no fee unless we win — (678) 446-3655.',
   applicationName: site.name,
   authors: [{ name: site.attorney }],
   robots: { index: true, follow: true },

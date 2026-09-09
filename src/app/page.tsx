@@ -51,15 +51,15 @@ export default function HomePage() {
       <Section
         tone="night"
         label="What we handle"
-        title="Injury work, across every way it happens"
+        title="How people get hurt, and what we do about it"
         intro={
           <>
             <p className="mb-4">
-              The firm represents injured people — in vehicle collisions, on unsafe property, at work,
-              and against manufacturers, providers, and insurers. Twenty-four case types, all of them
-              some version of the same question: who is responsible, and what is the harm worth?
+              We represent people who have been seriously hurt — in vehicle collisions, on unsafe
+              property, and at work — and families who have lost someone. Every case comes down to the
+              same two questions: who is responsible, and what is the harm actually worth?
             </p>
-            <p>These are the six we are asked about most. The full list runs to twenty-four — call and we will point you the right way.</p>
+            <p>These are the cases we are asked about most. Call and we will point you the right way.</p>
           </>
         }
         split
@@ -71,7 +71,7 @@ export default function HomePage() {
         tone="bone"
         label="Why Lawson"
         title="What you should expect from a firm this size"
-        intro="Bigger is not better in injury work. What matters is whether the person handling your file knows it in detail and answers the phone."
+        intro="Bigger is not better. What matters is whether the person handling your case knows it in detail and answers the phone."
         split
       >
         <ul className="grid gap-px bg-night/10 sm:grid-cols-2">

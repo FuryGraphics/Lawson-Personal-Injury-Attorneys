@@ -2,32 +2,26 @@ import { carAccidents, motorcycleAccidents, truckAccidents } from './pi-part1';
 import { pedestrianAccidents, slipAndFall, wrongfulDeath } from './pi-part2';
 import { bicycleAccidents, busAccidents, lyftAccidents, taxiAccidents, uberAccidents } from './pi-part3';
 import { brainInjury, catastrophicInjuries, childInjuries, dogBites } from './pi-part4';
-import {
-  assaultInjuries,
-  constructionAccidents,
-  premisesLiability,
-  sexualAssaults,
-  workplaceAccidents,
-} from './pi-part5';
-import {
-  badFaithInsurance,
-  medicalMalpractice,
-  productLiability,
-  workersCompensation,
-} from './pi-part6';
+import { assaultInjuries, premisesLiability, sexualAssaults, workplaceAccidents } from './pi-part5';
 import { practiceGroupOrder, type PracticeGroup, type PracticePage } from './types';
 
 export type { Faq, PracticeGroup, PracticePage, Step } from './types';
 export { practiceGroupOrder } from './types';
 
 /**
- * The registry — all 24 case types the client supplied.
+ * The registry — the 19 case types the firm actually handles.
  *
  * Nav, footer, card grids, the FAQ index, the HTML sitemap, and sitemap.xml all
  * read from this array. Adding a twenty-fifth means adding it here and nothing
  * else. Order within each group is roughly by search volume.
  */
 export const practicePages: PracticePage[] = [
+  // Catastrophic and wrongful death lead: these are the cases the firm is built
+  // around, and they set the order of the nav, the card grids, and the sitemap.
+  wrongfulDeath,
+  catastrophicInjuries,
+  brainInjury,
+  childInjuries,
   // Motor vehicle
   carAccidents,
   truckAccidents,
@@ -38,25 +32,13 @@ export const practicePages: PracticePage[] = [
   lyftAccidents,
   busAccidents,
   taxiAccidents,
-  // Premises & security
-  slipAndFall,
+  // Premises, property and workplace
   premisesLiability,
+  slipAndFall,
   dogBites,
   assaultInjuries,
   sexualAssaults,
-  // Serious & catastrophic
-  wrongfulDeath,
-  brainInjury,
-  catastrophicInjuries,
-  childInjuries,
-  // Work
-  workersCompensation,
   workplaceAccidents,
-  constructionAccidents,
-  // Professional & product
-  medicalMalpractice,
-  productLiability,
-  badFaithInsurance,
 ];
 
 export const practiceBase = '/personal-injury';
@@ -80,8 +62,8 @@ export const practiceLinks = practicePages.map((p) => ({
 }));
 
 /**
- * Grouped for the nav mega-menu. Twenty-four items in a single dropdown column
- * is unusable, so the menu is built from these five columns instead.
+ * Grouped for the nav mega-menu — three columns, in the order defined by
+ * practiceGroupOrder.
  */
 export type GroupedPractice = { group: PracticeGroup; pages: PracticePage[] };
 
@@ -90,9 +72,9 @@ export const practiceByGroup: GroupedPractice[] = practiceGroupOrder
   .filter((g) => g.pages.length > 0);
 
 /**
- * The homepage and hub grids show these six rather than all 24 — a 24-card wall
- * is a worse front door than a curated one, and every card links onward to the
- * full index.
+ * The homepage grid shows these nine rather than all 19, in registry order — so
+ * wrongful death, catastrophic injury and brain injury occupy the top row and
+ * the vehicle cases follow. Every grid links onward to the full index.
  */
 export const featuredPractices = practicePages.filter((p) => p.featured);
 

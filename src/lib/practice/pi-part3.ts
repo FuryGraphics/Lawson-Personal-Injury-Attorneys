@@ -10,7 +10,7 @@ export const bicycleAccidents: PracticePage = {
   targetKeyword: 'Bicycle Accident Lawyer Atlanta GA',
   metaTitle: 'Bicycle Accident Lawyer Atlanta GA',
   metaDescription:
-    'Hit while cycling in Atlanta? We handle Georgia bicycle accident claims and push back on driver-blame defenses. Free case review — call (404) 394-9410.',
+    'Hit while cycling in Atlanta? We handle Georgia bicycle accident claims and push back on driver-blame defenses. Free case review — call (678) 446-3655.',
   label: 'Case type',
   deck: 'Georgia gives cyclists the same right to the road as any vehicle. Drivers, and their insurers, frequently behave as though it does not.',
   cardBlurb:
@@ -63,7 +63,7 @@ export const busAccidents: PracticePage = {
   targetKeyword: 'Bus Accident Lawyer Atlanta GA',
   metaTitle: 'Bus Accident Lawyer Atlanta GA',
   metaDescription:
-    'Injured on or by a bus in Atlanta? MARTA and school bus claims carry short notice deadlines. Free case review, no fee unless we win — call (404) 394-9410.',
+    'Injured on or by a bus in Atlanta? MARTA and school bus claims carry short notice deadlines. Free case review, no fee unless we win — call (678) 446-3655.',
   label: 'Case type',
   deck: 'A claim against a public transit agency can expire in six months. That is the first thing to know, and most people never hear it.',
   cardBlurb:
@@ -116,7 +116,7 @@ export const uberAccidents: PracticePage = {
   targetKeyword: 'Uber Accident Lawyer Atlanta GA',
   metaTitle: 'Uber Accident Lawyer Atlanta GA',
   metaDescription:
-    'Injured in an Uber in Atlanta? Coverage depends on the app status at impact. We find the policy that applies. Free review — call (404) 394-9410 today.',
+    'Injured in an Uber in Atlanta? Coverage depends on the app status at impact. We find the policy that applies. Free review — call (678) 446-3655 today.',
   label: 'Case type',
   deck: 'Uber carries a million-dollar policy — but only during part of the trip. Which part decides what your claim is worth.',
   cardBlurb:
@@ -169,7 +169,7 @@ export const lyftAccidents: PracticePage = {
   targetKeyword: 'Lyft Accident Lawyer Atlanta GA',
   metaTitle: 'Lyft Accident Lawyer Atlanta GA',
   metaDescription:
-    'Hurt in a Lyft in Atlanta? Which policy pays depends on the app status at impact, and we establish it with trip data. Free review — (404) 394-9410 today.',
+    'Hurt in a Lyft in Atlanta? Which policy pays depends on the app status at impact, and we establish it with trip data. Free review — (678) 446-3655 today.',
   label: 'Case type',
   deck: 'Lyft’s coverage works in tiers. Getting into the right tier is most of the work in these cases.',
   cardBlurb:
@@ -222,7 +222,7 @@ export const taxiAccidents: PracticePage = {
   targetKeyword: 'Taxi Accident Lawyer Atlanta GA',
   metaTitle: 'Taxi Accident Lawyer Atlanta GA',
   metaDescription:
-    'Injured in a taxi in Atlanta? Cabs are common carriers owing their passengers a heightened duty of care. Free case review today — call (404) 394-9410.',
+    'Injured in a taxi in Atlanta? Cabs are common carriers owing their passengers a heightened duty of care. Free case review today — call (678) 446-3655.',
   label: 'Case type',
   deck: 'A taxi is a common carrier. Georgia holds it to a higher standard of care than an ordinary driver.',
   cardBlurb:

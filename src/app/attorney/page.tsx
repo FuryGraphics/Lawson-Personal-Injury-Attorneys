@@ -18,7 +18,7 @@ const crumbs = [
 export const metadata = pageMeta({
   title: 'Yari Lawson — Atlanta Personal Injury Lawyer',
   description:
-    'Meet Yari D. Lawson, the Atlanta and Lawrenceville personal injury attorney behind Lawson Personal Injury Attorneys. Free review — call (404) 394-9410.',
+    'Meet Yari D. Lawson, the Atlanta and Lawrenceville personal injury attorney behind Lawson Personal Injury Attorneys. Free review — call (678) 446-3655.',
   path: '/attorney',
   ogType: 'profile',
 });
@@ -74,7 +74,7 @@ export default function AttorneyPage() {
           <Reveal>
             <p className="label mb-4 text-crest">About the firm</p>
             <h2 className="display-md text-white">
-              Injury work, and nothing <span className="em-crest">but</span> injury work
+              Serious injury cases, and <span className="em-crest">nothing else</span>
             </h2>
             <span className="underline-crest mt-6" aria-hidden="true" />
             <div className="mt-8 space-y-6">

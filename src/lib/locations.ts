@@ -37,7 +37,7 @@ export const locationPages: LocationPage[] = [
     targetKeyword: 'Personal Injury Attorney Atlanta GA',
     metaTitle: 'Personal Injury Attorney Atlanta GA',
     metaDescription:
-      'Personal injury attorney serving Atlanta, GA. Car, truck, motorcycle and pedestrian accidents, slip and fall, wrongful death. Call (404) 394-9410 today.',
+      'Personal injury attorney serving Atlanta, GA. Car, truck, motorcycle and pedestrian accidents, slip and fall, wrongful death. Call (678) 446-3655 today.',
     h1: 'Personal Injury Attorney in Atlanta, GA',
     deck: 'Serving Atlanta and Fulton County from our office in Lawrenceville, thirty miles up I-85.',
     intro: [
@@ -70,7 +70,7 @@ export const locationPages: LocationPage[] = [
     targetKeyword: 'Personal Injury Attorney Lawrenceville GA',
     metaTitle: 'Personal Injury Attorney Lawrenceville GA',
     metaDescription:
-      'Personal injury attorney in Lawrenceville, GA, on the courthouse square at 320 S Perry St. Free consultation, no fee unless we win. Call (404) 394-9410 today.',
+      'Personal injury attorney in Lawrenceville, GA, on the courthouse square at 320 S Perry St. Free consultation, no fee unless we win. Call (678) 446-3655 today.',
     h1: 'Personal Injury Attorney in Lawrenceville, GA',
     deck: 'Our office sits on the courthouse square in downtown Lawrenceville, a short walk from where Gwinnett County cases are heard.',
     intro: [
@@ -103,7 +103,7 @@ export const locationPages: LocationPage[] = [
     targetKeyword: 'Personal Injury Attorney Decatur GA',
     metaTitle: 'Personal Injury Attorney Decatur GA',
     metaDescription:
-      'Personal injury attorney serving Decatur and DeKalb County, GA. Accident, premises liability, and wrongful death claims. Free case review — call (404) 394-9410.',
+      'Personal injury attorney serving Decatur and DeKalb County, GA. Accident, premises liability, and wrongful death claims. Free case review — call (678) 446-3655.',
     h1: 'Personal Injury Attorney in Decatur, GA',
     deck: 'Serving Decatur, Stone Mountain, and DeKalb County from our Lawrenceville office.',
     intro: [

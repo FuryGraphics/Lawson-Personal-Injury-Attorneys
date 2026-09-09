@@ -98,7 +98,7 @@ export default function LocationPageView({ location }: { location: LocationPage 
         photo={photos.highwayAmber}
         label={location.county}
         heading={`Most of our ${location.city} cases start on a road like this one.`}
-        body="Vehicle collisions are the largest share of the practice — but the firm also handles unsafe property, workplace injury, defective products, and medical negligence."
+        body="Vehicle collisions are the largest share of the practice — but the most serious cases are the catastrophic injuries and wrongful deaths that follow them."
         height="sm"
       />
 
@@ -106,7 +106,7 @@ export default function LocationPageView({ location }: { location: LocationPage 
         tone="bone"
         label="Practice areas"
         title={`Cases we handle in ${location.city}`}
-        intro="Injury work is the whole practice. These are the case types we are asked about most — the full list runs to twenty-four."
+        intro="Personal injury is all this firm does. These are the cases we are asked about most — the full list runs to nineteen."
         split
       >
         <PracticeGrid tone="bone" />
