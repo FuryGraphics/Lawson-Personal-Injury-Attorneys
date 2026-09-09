@@ -20,13 +20,13 @@ import { serviceAreaChips, site } from '@/lib/site';
 
 export const metadata = {
   ...pageMeta({
-    title: 'Personal Injury Attorney Atlanta GA',
+    title: 'Personal Injury Attorney Lawrenceville GA',
     description:
       'Atlanta personal injury attorney handling car, truck, motorcycle and pedestrian accidents, slip and fall, and wrongful death. Free case review, no fee.',
     path: '/',
   }),
   // The homepage sets its own full title rather than taking the template.
-  title: `Personal Injury Attorney Atlanta GA | ${site.name}`,
+  title: `Personal Injury Attorney Lawrenceville GA | ${site.name}`,
 };
 
 export default function HomePage() {
@@ -37,10 +37,10 @@ export default function HomePage() {
       <Hero
         size="home"
         image={photos.atlantaSkyline}
-        label="Atlanta · Lawrenceville · Metro Georgia"
+        label="Lawrenceville · Gwinnett County · Metro Atlanta"
         title={
           <>
-            Atlanta <span className="em-crest">Personal Injury</span> Attorney
+            Lawrenceville <span className="em-crest">Personal Injury</span> Attorney
           </>
         }
         deck="Someone else's negligence put you here. Lawson Personal Injury Attorneys handles the insurance company, the evidence, and the deadlines — so you can put your attention back on getting better."

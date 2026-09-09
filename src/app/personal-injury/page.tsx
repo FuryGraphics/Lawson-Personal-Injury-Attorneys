@@ -20,7 +20,7 @@ const crumbs = [
 ];
 
 export const metadata = pageMeta({
-  title: 'Personal Injury Lawyer Atlanta GA',
+  title: 'Personal Injury Lawyer Lawrenceville GA',
   description:
     'Personal injury lawyer serving Atlanta and Gwinnett County, GA. We handle the insurer, the evidence, and the deadlines. Free case review — call (678) 446-3655.',
   path: '/personal-injury',
@@ -48,7 +48,7 @@ export default function PersonalInjuryPage() {
         label="Personal injury"
         title={
           <>
-            Atlanta <span className="em-crest">Personal Injury</span> Lawyer
+            Lawrenceville <span className="em-crest">Personal Injury</span> Lawyer
           </>
         }
         deck="If someone else's carelessness hurt you, Georgia law gives you a claim. What it does not do is make the claim easy, or the deadline forgiving."

@@ -14,11 +14,11 @@ export const carAccidents: PracticePage = {
   navLabel: 'Car Accidents',
   group: 'Motor Vehicle Accidents',
   featured: true,
-  h1: 'Atlanta Car Accident Lawyer',
-  targetKeyword: 'Car Accident Lawyer Atlanta GA',
-  metaTitle: 'Car Accident Lawyer Atlanta GA',
+  h1: 'Lawrenceville Car Accident Lawyer',
+  targetKeyword: 'Car Accident Lawyer Lawrenceville GA',
+  metaTitle: 'Car Accident Lawyer Lawrenceville GA',
   metaDescription:
-    'Injured in an Atlanta car accident? We handle Georgia crash and uninsured motorist claims with no fee unless we win. Call (678) 446-3655 for a free review.',
+    'Injured in a Lawrenceville car accident? We handle Georgia crash and uninsured motorist claims, with no fee unless we win. Free review — (678) 446-3655.',
   label: 'Case type',
   deck: 'The insurance company opened a file on your crash within hours. You should have someone doing the same for you.',
   cardBlurb:
@@ -55,7 +55,7 @@ export const carAccidents: PracticePage = {
     },
     {
       title: 'Multi-vehicle pileups',
-      body: 'Chain-reaction crashes on the Perimeter where several insurers each argue that someone else in the line started it.',
+      body: 'Chain-reaction crashes on I-85 and the Perimeter where several insurers each argue that someone else in the line started it.',
     },
     {
       title: 'Passenger injury claims',
@@ -122,11 +122,11 @@ export const truckAccidents: PracticePage = {
   navLabel: 'Truck Accidents',
   group: 'Motor Vehicle Accidents',
   featured: true,
-  h1: 'Atlanta Truck Accident Lawyer',
-  targetKeyword: 'Truck Accident Lawyer Atlanta GA',
-  metaTitle: 'Truck Accident Lawyer Atlanta GA',
+  h1: 'Lawrenceville Truck Accident Lawyer',
+  targetKeyword: 'Truck Accident Lawyer Lawrenceville GA',
+  metaTitle: 'Truck Accident Lawyer Lawrenceville GA',
   metaDescription:
-    'Hit by a commercial truck in Atlanta? We pursue trucking companies under federal safety rules. Free case review, no fee unless we win — (678) 446-3655.',
+    'Hit by a commercial truck in Lawrenceville? We pursue trucking companies under federal safety rules. Free case review, no fee unless we win — (678) 446-3655.',
   label: 'Case type',
   deck: 'A trucking company can have investigators at the scene before the road reopens. The evidence that decides your case starts disappearing that fast.',
   cardBlurb:
@@ -174,7 +174,7 @@ export const truckAccidents: PracticePage = {
     heading: 'Why the trucking company is the real defendant',
     body: [
       'Under respondeat superior, a motor carrier is responsible for the negligence of a driver acting within the scope of employment. That matters practically, because the driver may carry nothing while the carrier’s policy runs into the millions — federal minimums start at $750,000 for interstate carriers and go higher for hazardous cargo.',
-      'Georgia also recognizes claims aimed at the company’s own conduct: negligent hiring, negligent training, negligent supervision, and negligent entrustment. Those are separate from the driver’s negligence and they are frequently the more valuable claims, because they reach the decisions that put an unqualified driver on Georgia 400 in the first place.',
+      'Georgia also recognizes claims aimed at the company’s own conduct: negligent hiring, negligent training, negligent supervision, and negligent entrustment. Those are separate from the driver’s negligence and they are frequently the more valuable claims, because they reach the decisions that put an unqualified driver on I-85 in the first place.',
       'The two-year filing deadline under O.C.G.A. § 9-3-33 applies here as well, and Georgia’s 50 percent comparative fault bar applies with it. Carriers litigate fault hard for exactly that reason — pushing a share of blame onto the injured driver is the cheapest defense available to them.',
     ],
   },
@@ -230,11 +230,11 @@ export const motorcycleAccidents: PracticePage = {
   navLabel: 'Motorcycle Accidents',
   group: 'Motor Vehicle Accidents',
   featured: true,
-  h1: 'Atlanta Motorcycle Accident Lawyer',
-  targetKeyword: 'Motorcycle Accident Lawyer Atlanta GA',
-  metaTitle: 'Motorcycle Accident Lawyer Atlanta GA',
+  h1: 'Lawrenceville Motorcycle Accident Lawyer',
+  targetKeyword: 'Motorcycle Accident Lawyer Lawrenceville GA',
+  metaTitle: 'Motorcycle Accident Lawyer Lawrenceville GA',
   metaDescription:
-    'Motorcycle crash in Atlanta or Gwinnett County? We push back on rider bias and build the claim your injuries deserve. Free case review — call (678) 446-3655.',
+    'Motorcycle crash in Lawrenceville or Gwinnett County? We push back on rider bias and build the claim your injuries deserve. Free review — (678) 446-3655.',
   label: 'Case type',
   deck: 'Riders start these cases behind. The first job is dismantling the assumption that you were the reckless one.',
   cardBlurb:
@@ -251,7 +251,7 @@ export const motorcycleAccidents: PracticePage = {
     },
     {
       title: 'Lane-change and blind-spot crashes',
-      body: 'Drivers merging into a motorcycle they never checked for, often on the Downtown Connector and I-285.',
+      body: 'Drivers merging into a motorcycle they never checked for, often on I-85 through Gwinnett or the Downtown Connector.',
     },
     {
       title: 'Dooring',

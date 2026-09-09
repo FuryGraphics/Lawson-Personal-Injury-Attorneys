@@ -39,13 +39,13 @@ export const site = {
   hoursSpec: { opens: '09:00', closes: '17:00' },
 
   /**
-   * The brief keeps Atlanta as the site-wide SEO target (larger metro, far more
-   * search volume) while the physical office — and therefore every NAP block and
-   * map pin on the site — stays Lawrenceville.
-   * TODO(client): confirm with Yari that Atlanta is the intended primary market
-   * rather than Lawrenceville.
+   * Confirmed by the client: Lawrenceville is the primary market, not Atlanta.
+   * Atlanta has far more search volume but is dominated by firms with large ad
+   * budgets; Lawrenceville is winnable and is where the office and the county
+   * courthouse actually are. Atlanta is still served and still has its own page
+   * at /atlanta — it is a secondary target rather than the site-wide one.
    */
-  primaryCity: 'Atlanta',
+  primaryCity: 'Lawrenceville',
   primaryState: 'GA',
 
   /**

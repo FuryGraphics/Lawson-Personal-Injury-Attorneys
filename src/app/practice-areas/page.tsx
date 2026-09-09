@@ -17,7 +17,7 @@ const crumbs = [
 ];
 
 export const metadata = pageMeta({
-  title: 'Atlanta GA Personal Injury Law Firm',
+  title: 'Lawrenceville GA Personal Injury Law Firm',
   description:
     'Atlanta personal injury law firm handling car, truck, motorcycle and pedestrian accidents, slip and fall, and wrongful death. Call (678) 446-3655 today.',
   path: '/practice-areas',
@@ -34,7 +34,7 @@ export default function PracticeAreasPage() {
         label="Practice areas"
         title={
           <>
-            An Atlanta <span className="em-crest">personal injury</span> law firm
+            A Lawrenceville <span className="em-crest">personal injury</span> law firm
           </>
         }
         deck="Serious injury and wrongful death cases across metro Atlanta, and a single question underneath all of them: who is responsible, and what is the harm actually worth?"

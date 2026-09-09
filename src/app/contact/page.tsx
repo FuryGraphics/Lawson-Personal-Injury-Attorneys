@@ -18,7 +18,7 @@ const crumbs = [
 ];
 
 export const metadata = pageMeta({
-  title: 'Free Consultation — Atlanta Personal Injury Lawyer',
+  title: 'Free Consultation — Lawrenceville Personal Injury Lawyer',
   description:
     'Request a free consultation with an Atlanta personal injury lawyer. Call (678) 446-3655 or send a message. No fee unless we win your case. Se responde rápido.',
   path: '/contact',

@@ -18,7 +18,7 @@ const crumbs = [
 ];
 
 export const metadata = pageMeta({
-  title: 'Personal Injury FAQ Atlanta GA',
+  title: 'Personal Injury FAQ Lawrenceville GA',
   description:
     'Answers to common Georgia personal injury questions: filing deadlines, comparative fault, insurance, case value, and fees. Free review — (678) 446-3655.',
   path: '/personal-injury/faq',

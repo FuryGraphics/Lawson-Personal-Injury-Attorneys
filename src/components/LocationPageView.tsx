@@ -50,14 +50,9 @@ export default function LocationPageView({ location }: { location: LocationPage 
         // seats get the courthouse, which is what their pages are about.
         image={location.slug === 'atlanta' ? photos.atlantaSkyline : photos.courthouse}
         label={location.isOffice ? 'Our office' : `${location.county} · Service area`}
-        title={
-          <>
-            Personal Injury Attorney in{' '}
-            <span className="em-crest">
-              {location.city}, {site.primaryState}
-            </span>
-          </>
-        }
+        // Each entry supplies its own H1 now: the Lawrenceville page targets
+        // Gwinnett County rather than repeating the homepage's city keyword.
+        title={location.h1}
         deck={location.deck}
       />
 

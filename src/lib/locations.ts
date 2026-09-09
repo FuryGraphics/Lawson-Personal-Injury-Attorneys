@@ -67,11 +67,18 @@ export const locationPages: LocationPage[] = [
     city: 'Lawrenceville',
     county: 'Gwinnett County',
     isOffice: true,
-    targetKeyword: 'Personal Injury Attorney Lawrenceville GA',
-    metaTitle: 'Personal Injury Attorney Lawrenceville GA',
+    /**
+     * Retargeted to the county, not the city. With Lawrenceville as the
+     * site-wide primary the homepage now owns "Personal Injury Attorney
+     * Lawrenceville GA" — two pages chasing the same phrase would compete with
+     * each other. Gwinnett County is a genuinely separate search and this page
+     * still carries the office NAP and LocalBusiness schema.
+     */
+    targetKeyword: 'Personal Injury Lawyer Gwinnett County GA',
+    metaTitle: 'Personal Injury Lawyer Gwinnett County GA',
     metaDescription:
-      'Personal injury attorney in Lawrenceville, GA, on the courthouse square at 320 S Perry St. Free consultation, no fee unless we win. Call (678) 446-3655 today.',
-    h1: 'Personal Injury Attorney in Lawrenceville, GA',
+      'Personal injury lawyer for Gwinnett County, GA. Our office sits on the Lawrenceville square at 320 S Perry St. Free case review — call (678) 446-3655.',
+    h1: 'Personal Injury Lawyer for Gwinnett County, GA',
     deck: 'Our office sits on the courthouse square in downtown Lawrenceville, a short walk from where Gwinnett County cases are heard.',
     intro: [
       'Lawrenceville is home. The office is at 320 S Perry Street, on the square in the middle of downtown, a few minutes’ walk from the Gwinnett Justice and Administration Center where this county’s injury cases are filed and tried. Being local is not a marketing line here — it is why a client can drop off records in person and why we know the intersections in the police reports we read.',

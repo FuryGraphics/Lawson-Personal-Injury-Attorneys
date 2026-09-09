@@ -24,11 +24,11 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
     // Pages set the keyword half; the firm name is appended once, here.
-    default: `Personal Injury Attorney Atlanta GA | ${site.name}`,
+    default: `Personal Injury Attorney Lawrenceville GA | ${site.name}`,
     template: `%s | ${site.name}`,
   },
   description:
-    'Lawson Personal Injury Attorneys represents injured people across Atlanta and Gwinnett County, GA. Free case review, no fee unless we win — (678) 446-3655.',
+    'Lawson Personal Injury Attorneys represents injured people across Lawrenceville, Gwinnett County and metro Atlanta. Free case review — (678) 446-3655.',
   applicationName: site.name,
   authors: [{ name: site.attorney }],
   robots: { index: true, follow: true },

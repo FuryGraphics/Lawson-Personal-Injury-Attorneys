@@ -7,11 +7,11 @@ export const pedestrianAccidents: PracticePage = {
   navLabel: 'Pedestrian Accidents',
   group: 'Motor Vehicle Accidents',
   featured: true,
-  h1: 'Atlanta Pedestrian Accident Lawyer',
-  targetKeyword: 'Pedestrian Accident Lawyer Atlanta GA',
-  metaTitle: 'Pedestrian Accident Lawyer Atlanta GA',
+  h1: 'Lawrenceville Pedestrian Accident Lawyer',
+  targetKeyword: 'Pedestrian Accident Lawyer Lawrenceville GA',
+  metaTitle: 'Pedestrian Accident Lawyer Lawrenceville GA',
   metaDescription:
-    'Struck by a car while walking in Atlanta? We handle crosswalk, school zone, and hit-and-run pedestrian claims. Free consultation — call (678) 446-3655 today.',
+    'Struck by a car while walking in Lawrenceville or Gwinnett County? We handle crosswalk, school zone and hit-and-run claims. Free review — (678) 446-3655.',
   label: 'Case type',
   deck: 'There is nothing between a person on foot and a two-ton vehicle. The injuries reflect that, and so should the claim.',
   cardBlurb:
@@ -115,11 +115,11 @@ export const slipAndFall: PracticePage = {
   navLabel: 'Slip and Fall',
   group: 'Premises, Property & Workplace',
   featured: true,
-  h1: 'Atlanta Slip and Fall Lawyer',
-  targetKeyword: 'Slip and Fall Lawyer Atlanta GA',
-  metaTitle: 'Slip and Fall Lawyer Atlanta GA',
+  h1: 'Lawrenceville Slip and Fall Lawyer',
+  targetKeyword: 'Slip and Fall Lawyer Lawrenceville GA',
+  metaTitle: 'Slip and Fall Lawyer Lawrenceville GA',
   metaDescription:
-    'Hurt on someone else’s property in Atlanta? We handle Georgia premises liability claims against stores, landlords, and businesses. Free review — (678) 446-3655.',
+    'Hurt on someone else\'s property in Lawrenceville or Gwinnett County? Georgia premises claims turn on what the owner knew. Free review — (678) 446-3655.',
   label: 'Case type',
   deck: 'Premises cases are won or lost on what the property owner knew, and when they knew it.',
   cardBlurb:
@@ -223,11 +223,11 @@ export const wrongfulDeath: PracticePage = {
   navLabel: 'Wrongful Death',
   group: 'Catastrophic & Wrongful Death',
   featured: true,
-  h1: 'Atlanta Wrongful Death Lawyer',
-  targetKeyword: 'Wrongful Death Lawyer Atlanta GA',
-  metaTitle: 'Wrongful Death Lawyer Atlanta GA',
+  h1: 'Lawrenceville Wrongful Death Lawyer',
+  targetKeyword: 'Wrongful Death Lawyer Lawrenceville GA',
+  metaTitle: 'Wrongful Death Lawyer Lawrenceville GA',
   metaDescription:
-    'Lost a family member to negligence in Georgia? We handle Atlanta wrongful death claims with care and persistence. Free, private consultation — (678) 446-3655.',
+    'Lost a family member to someone else\'s negligence in Georgia? We handle wrongful death claims with care and persistence. Free consultation — (678) 446-3655.',
   label: 'Case type',
   deck: 'Nothing about a claim replaces the person. What it can do is hold someone answerable and steady the people left behind.',
   cardBlurb:
