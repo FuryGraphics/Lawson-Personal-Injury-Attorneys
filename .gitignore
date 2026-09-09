@@ -5,3 +5,6 @@ out
 .DS_Store
 next-env.d.ts
 tsconfig.tsbuildinfo
+
+# Client source material — not web assets, not served.
+client-assets/
