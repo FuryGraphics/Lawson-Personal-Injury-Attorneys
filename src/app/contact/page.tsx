@@ -27,7 +27,7 @@ export const metadata = pageMeta({
 const afterContact = [
   {
     title: 'We call you back',
-    body: 'Usually the same business day. If a deadline may be close or the situation is urgent, call rather than waiting on a reply to a form.',
+    body: 'The phone is answered around the clock. If a deadline may be close or the situation is urgent, call rather than waiting on a reply to a form.',
   },
   {
     title: 'We listen first',

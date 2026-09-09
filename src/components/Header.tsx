@@ -98,7 +98,7 @@ export default function Header() {
             <span className="text-crest">No fee unless we win</span>
           </p>
           <p className="label flex items-center gap-3 text-white/50">
-            Free case review
+            Answered 24/7
             <span className="text-white/20">/</span>
             <a href={site.phoneHref} className="text-crest hover:text-crest-bright">
               {site.phone}

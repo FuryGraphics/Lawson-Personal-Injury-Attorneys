@@ -34,9 +34,15 @@ export const site = {
   // TODO(client): verify against the Google Business Profile pin before launch.
   geo: { lat: 33.9526, lng: -83.9977 },
 
-  hours: 'Monday–Friday, 9:00 a.m. – 5:00 p.m. Calls returned after hours and on weekends.',
-  hoursShort: 'Mon–Fri 9–5 · Calls returned after hours',
-  hoursSpec: { opens: '09:00', closes: '17:00' },
+  /**
+   * The Google Business Profile lists the firm as open 24 hours, so the site
+   * says the same. Hours are part of the NAP: a site that advertises 9–5 while
+   * the GBP says 24 hours is an inconsistency Google can act on, and it turns
+   * away the 2 a.m. caller who has just been in a wreck.
+   */
+  hours: 'Open 24 hours, seven days a week.',
+  hoursShort: 'Open 24 hours',
+  hoursSpec: { opens: '00:00', closes: '23:59' },
 
   /**
    * Confirmed by the client: Lawrenceville is the primary market, not Atlanta.

@@ -77,9 +77,11 @@ const geo = {
   longitude: site.geo.lng,
 };
 
+// Open 24/7, matching the Google Business Profile. Seven days, midnight to
+// 23:59 — the conventional way to express "always open" in schema.org.
 const openingHours = {
   '@type': 'OpeningHoursSpecification',
-  dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+  dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
   opens: site.hoursSpec.opens,
   closes: site.hoursSpec.closes,
 };

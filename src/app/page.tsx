@@ -6,6 +6,8 @@ import ChipLinks from '@/components/ChipLinks';
 import FAQAccordion from '@/components/FAQAccordion';
 import Hero from '@/components/Hero';
 import JsonLd from '@/components/JsonLd';
+import MapEmbed from '@/components/MapEmbed';
+import OfficeCard from '@/components/OfficeCard';
 import PracticeGrid from '@/components/PracticeGrid';
 import ProcessSteps from '@/components/ProcessSteps';
 import Reveal from '@/components/Reveal';
@@ -159,9 +161,14 @@ export default function HomePage() {
         tone="night"
         label="Service area"
         title="Where we practice"
-        intro="One office, in Lawrenceville. From it the firm serves the metro Atlanta counties and the cities inside them."
+        intro="One office, on the square in Lawrenceville. From it the firm serves Gwinnett County and the metro Atlanta counties around it."
         split
       >
+        <div className="mb-14 grid gap-8 lg:grid-cols-[0.85fr_1.15fr]">
+          <OfficeCard tone="night" />
+          <MapEmbed title={`Map to ${site.name} at ${site.addressLine}`} />
+        </div>
+
         <div className="grid gap-12 lg:grid-cols-[1fr_1fr]">
           <div>
             <ul className="grid gap-px bg-white/10 sm:grid-cols-3">
