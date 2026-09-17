@@ -6,6 +6,12 @@ type PageMetaArgs = {
   description: string;
   path: string;
   ogType?: 'website' | 'article' | 'profile';
+  /**
+   * Skip the "| Lawson Law" suffix the layout template appends. Used by the
+   * attorney profiles, where the lawyer's own surname already carries the
+   * brand and the suffix would repeat "Lawson" inside one title.
+   */
+  absoluteTitle?: boolean;
 };
 
 /**
@@ -13,14 +19,20 @@ type PageMetaArgs = {
  * block stay uniform. `title` is the page-specific half — the firm name is
  * appended once, in the layout template.
  */
-export function pageMeta({ title, description, path, ogType = 'website' }: PageMetaArgs): Metadata {
+export function pageMeta({
+  title,
+  description,
+  path,
+  ogType = 'website',
+  absoluteTitle = false,
+}: PageMetaArgs): Metadata {
   const url = `${site.url}${path === '/' ? '' : path}`;
   return {
-    title,
+    title: absoluteTitle ? { absolute: title } : title,
     description,
     alternates: { canonical: url },
     openGraph: {
-      title: `${title} | ${site.name}`,
+      title: absoluteTitle ? title : `${title} | ${site.titleBrand}`,
       description,
       url,
       siteName: site.name,
@@ -29,7 +41,7 @@ export function pageMeta({ title, description, path, ogType = 'website' }: PageM
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${title} | ${site.name}`,
+      title: absoluteTitle ? title : `${title} | ${site.titleBrand}`,
       description,
     },
   };

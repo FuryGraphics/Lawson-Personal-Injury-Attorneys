@@ -28,7 +28,7 @@ export const metadata = {
     path: '/',
   }),
   // The homepage sets its own full title rather than taking the template.
-  title: `Personal Injury Attorney Lawrenceville GA | ${site.name}`,
+  title: `Personal Injury Attorney Lawrenceville GA | ${site.titleBrand}`,
 };
 
 export default function HomePage() {

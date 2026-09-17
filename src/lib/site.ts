@@ -9,6 +9,14 @@
  */
 export const site = {
   name: 'Lawson Personal Injury Attorneys',
+  /**
+   * Short form used only as the <title> suffix. The full name is 328px wide in
+   * a Google result, which left almost no room for the keyword half and
+   * repeated "Personal Injury" on nearly every page. This is 132px. The full
+   * legal name is still what appears in the footer, the schema, and every NAP
+   * block — this is a display abbreviation, not a rename.
+   */
+  titleBrand: 'Lawson Law',
   legalName: 'Lawson Personal Injury Attorneys',
   attorney: 'Yari D. Lawson',
   attorneyShort: 'Yari Lawson',

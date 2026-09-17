@@ -65,7 +65,7 @@ export const attorneys: Attorney[] = [
     memberships: [],
     honors: [],
     results: [],
-    metaTitle: 'Yari Lawson — Lawrenceville Personal Injury Lawyer',
+    metaTitle: 'Yari Lawson — Personal Injury Attorney, Lawrenceville GA',
     metaDescription:
       'Meet Yari D. Lawson, the Atlanta and Lawrenceville personal injury attorney behind Lawson Personal Injury Attorneys. Free review — call (678) 446-3655.',
   },
@@ -108,7 +108,7 @@ export const attorneys: Attorney[] = [
     ],
     honors: [{ label: 'Georgia Rising Star', detail: 'Super Lawyers' }],
     results: [],
-    metaTitle: 'Boris Milter — Lawrenceville Personal Injury Attorney',
+    metaTitle: 'Boris Milter — Personal Injury Attorney, Lawrenceville GA',
     metaDescription:
       'Meet Boris Y. Milter, Senior Associate Attorney at Lawson Personal Injury Attorneys. 15+ years, former insurance defense counsel. Call (678) 446-3655.',
   },

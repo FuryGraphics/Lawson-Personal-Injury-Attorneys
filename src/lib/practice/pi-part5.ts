@@ -62,7 +62,7 @@ export const assaultInjuries: PracticePage = {
   group: 'Premises, Property & Workplace',
   h1: 'Lawrenceville Assault Injury and Negligent Security Lawyer',
   targetKeyword: 'Assault Injury Lawyer Lawrenceville GA',
-  metaTitle: 'Assault Injury & Negligent Security Lawyer Lawrenceville GA',
+  metaTitle: 'Assault Injury Lawyer Lawrenceville GA',
   metaDescription:
     'Assaulted on someone else\'s property in Atlanta? A negligent security claim against the owner may exist. Free, confidential review — (678) 446-3655 today.',
   label: 'Case type',
@@ -115,7 +115,7 @@ export const sexualAssaults: PracticePage = {
   group: 'Premises, Property & Workplace',
   h1: 'Lawrenceville Sexual Assault Civil Claims Lawyer',
   targetKeyword: 'Sexual Assault Lawyer Lawrenceville GA',
-  metaTitle: 'Sexual Assault Civil Claims Lawyer Lawrenceville GA',
+  metaTitle: 'Sexual Assault Lawyer Lawrenceville GA',
   metaDescription:
     'Survivors of sexual assault in Georgia may have a civil claim against a negligent business or institution. Free, confidential consultation — (678) 446-3655.',
   label: 'Case type',

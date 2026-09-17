@@ -28,6 +28,7 @@ export async function generateMetadata({ params }: Params) {
     description: a.metaDescription,
     path: `/attorneys/${a.slug}`,
     ogType: 'profile',
+    absoluteTitle: true,
   });
 }
 

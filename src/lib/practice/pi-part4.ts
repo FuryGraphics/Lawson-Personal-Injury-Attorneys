@@ -9,7 +9,7 @@ export const brainInjury: PracticePage = {
   featured: true,
   h1: 'Lawrenceville Traumatic Brain Injury Lawyer',
   targetKeyword: 'Brain Injury Lawyer Lawrenceville GA',
-  metaTitle: 'Traumatic Brain Injury Lawyer Lawrenceville GA',
+  metaTitle: 'Brain Injury Lawyer Lawrenceville GA',
   metaDescription:
     'Traumatic brain injury in Lawrenceville? TBI claims turn on proving an injury that scans often miss. Free case review, no fee unless we win — (678) 446-3655.',
   label: 'Case type',

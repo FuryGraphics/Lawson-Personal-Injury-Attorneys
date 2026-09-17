@@ -75,7 +75,7 @@ export const locationPages: LocationPage[] = [
      * still carries the office NAP and LocalBusiness schema.
      */
     targetKeyword: 'Personal Injury Lawyer Gwinnett County GA',
-    metaTitle: 'Personal Injury Lawyer Gwinnett County GA',
+    metaTitle: 'Injury Lawyer Gwinnett County GA',
     metaDescription:
       'Personal injury lawyer for Gwinnett County, GA. Our office sits on the Lawrenceville square at 320 S Perry St. Free case review — call (678) 446-3655.',
     h1: 'Personal Injury Lawyer for Gwinnett County, GA',

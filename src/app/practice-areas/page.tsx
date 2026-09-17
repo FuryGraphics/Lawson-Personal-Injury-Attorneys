@@ -17,7 +17,7 @@ const crumbs = [
 ];
 
 export const metadata = pageMeta({
-  title: 'Lawrenceville GA Personal Injury Law Firm',
+  title: 'Personal Injury Attorneys Lawrenceville GA',
   description:
     'Atlanta personal injury law firm handling car, truck, motorcycle and pedestrian accidents, slip and fall, and wrongful death. Call (678) 446-3655 today.',
   path: '/practice-areas',

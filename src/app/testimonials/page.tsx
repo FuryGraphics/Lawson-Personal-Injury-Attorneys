@@ -16,7 +16,7 @@ const crumbs = [
 ];
 
 export const metadata = pageMeta({
-  title: 'Lawson Personal Injury Attorneys Reviews',
+  title: 'Client Reviews',
   description:
     'Read verified Google reviews for Lawson Personal Injury Attorneys in Lawrenceville and Atlanta, GA. Free case review, and no fee unless we win your case.',
   path: '/testimonials',
