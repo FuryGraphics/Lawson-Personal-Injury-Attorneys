@@ -92,7 +92,7 @@ export default async function AttorneyPage({ params }: Params) {
                   </p>
                 )}
                 <p className="mt-4 text-[15px] leading-relaxed text-smoke">
-                  Free, confidential, and no obligation. There is no fee unless we win.
+                  Free, confidential, and no obligation.
                 </p>
                 <Link href="/contact" className="btn-crest mt-6 w-full">
                   Request a Case Review

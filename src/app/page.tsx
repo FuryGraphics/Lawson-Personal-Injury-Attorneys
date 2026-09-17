@@ -24,7 +24,7 @@ export const metadata = {
   ...pageMeta({
     title: 'Personal Injury Attorney Lawrenceville GA',
     description:
-      'Atlanta personal injury attorney handling car, truck, motorcycle and pedestrian accidents, slip and fall, and wrongful death. Free case review, no fee.',
+      'Lawrenceville personal injury attorney handling car, truck, motorcycle and pedestrian accidents, slip and fall, and wrongful death. Free case review today.',
     path: '/',
   }),
   // The homepage sets its own full title rather than taking the template.

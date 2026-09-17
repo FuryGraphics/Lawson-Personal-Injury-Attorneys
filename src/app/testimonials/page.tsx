@@ -18,7 +18,7 @@ const crumbs = [
 export const metadata = pageMeta({
   title: 'Client Reviews',
   description:
-    'Read verified Google reviews for Lawson Personal Injury Attorneys in Lawrenceville and Atlanta, GA. Free case review, and no fee unless we win your case.',
+    'Read verified Google reviews for Lawson Personal Injury Attorneys in Lawrenceville and Gwinnett County, GA. Free case review — call (678) 446-3655 today.',
   path: '/testimonials',
 });
 

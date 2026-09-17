@@ -11,7 +11,7 @@ export const brainInjury: PracticePage = {
   targetKeyword: 'Brain Injury Lawyer Lawrenceville GA',
   metaTitle: 'Brain Injury Lawyer Lawrenceville GA',
   metaDescription:
-    'Traumatic brain injury in Lawrenceville? TBI claims turn on proving an injury that scans often miss. Free case review, no fee unless we win — (678) 446-3655.',
+    'Traumatic brain injury in Lawrenceville? TBI claims turn on proving an injury that scans and ER visits miss. Free case review — call (678) 446-3655 today.',
   label: 'Case type',
   deck: 'A normal CT scan does not mean a normal brain. Most of the work in a TBI case is proving that.',
   cardBlurb:

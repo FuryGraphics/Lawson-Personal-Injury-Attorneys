@@ -63,7 +63,7 @@ export const busAccidents: PracticePage = {
   targetKeyword: 'Bus Accident Lawyer Lawrenceville GA',
   metaTitle: 'Bus Accident Lawyer Lawrenceville GA',
   metaDescription:
-    'Injured on or by a bus in Lawrenceville? MARTA and school bus claims carry short notice deadlines. Free case review, no fee unless we win — call (678) 446-3655.',
+    'Injured on or by a bus in Lawrenceville? MARTA and school bus claims carry notice deadlines as short as six months. Free case review — (678) 446-3655.',
   label: 'Case type',
   deck: 'A claim against a public transit agency can expire in six months. That is the first thing to know, and most people never hear it.',
   cardBlurb:

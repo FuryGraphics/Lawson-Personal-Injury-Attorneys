@@ -20,7 +20,7 @@ const crumbs = [
 export const metadata = pageMeta({
   title: 'Free Case Review — Lawrenceville GA',
   description:
-    'Request a free consultation with an Atlanta personal injury lawyer. Call (678) 446-3655 or send a message. No fee unless we win your case. Se responde rápido.',
+    'Request a free consultation with a Lawrenceville personal injury lawyer. Call (678) 446-3655 or send a message. Confidential, and carries no obligation.',
   path: '/contact',
 });
 
@@ -57,7 +57,7 @@ export default function ContactPage() {
             Tell us what <span className="em-crest">happened</span>
           </>
         }
-        deck="The consultation is free, the conversation is confidential, and there is no fee unless we win. If we think you do not need a lawyer, we will say so."
+        deck="The consultation is free, the conversation is confidential, and it carries no obligation. If we think you do not need a lawyer, we will say so."
         actions={false}
       >
         <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:items-center">

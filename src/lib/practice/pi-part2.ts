@@ -316,7 +316,7 @@ export const wrongfulDeath: PracticePage = {
     },
     {
       q: 'What does a wrongful death case cost the family?',
-      a: 'Nothing up front. These cases are handled on a contingency fee, so the fee comes as a percentage of any recovery and there is no fee if there is no recovery. Case expenses are set out in writing before anything begins. No family should have to weigh whether they can afford to ask the question.',
+      a: 'Nothing up front. The fee and the handling of case expenses are set out in writing before anything begins, and we will walk through both before you decide anything. No family should have to weigh whether they can afford to ask the question.',
     },
     {
       q: 'We are not ready to talk to a lawyer yet. Is that a problem?',

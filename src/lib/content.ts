@@ -37,7 +37,7 @@ export const shortProcess: Step[] = [
   },
   {
     title: 'Recover',
-    body: 'We negotiate hard against the insurer and file suit when the offer does not match the harm. No fee unless we win.',
+    body: 'We negotiate hard against the insurer and file suit when the offer does not match the harm.',
   },
 ];
 
@@ -62,8 +62,8 @@ export const differentiators: Differentiator[] = [
     body: 'Most claims settle, and settlement value tracks how the case would hold up if it did not. Building each file to that standard is what makes the negotiation work.',
   },
   {
-    title: 'No fee unless we win',
-    body: 'The fee is a percentage of the recovery, in writing before anything begins. If there is no recovery there is no fee — the risk sits with us, not with you.',
+    title: 'Someone answers, day or night',
+    body: 'Injuries do not keep office hours, and neither do the deadlines that follow them. The phone is answered around the clock, and the first conversation costs nothing.',
   },
 ];
 
@@ -130,7 +130,7 @@ export const masterFaqGroups: FaqGroup[] = [
       },
       {
         q: 'What does it cost to hire a personal injury lawyer?',
-        a: 'Nothing up front. Personal injury work is done on a contingency fee: the fee is a percentage of the recovery, and there is no fee if there is no recovery. Case expenses — records, filing fees, experts — are separate and are explained in writing before the representation begins, so nothing at the end is a surprise.',
+        a: 'Nothing up front. The firm explains its fee in writing before any representation begins, along with how case expenses — records, filing fees, experts — are handled. Ask about the fee on the first call: it is a fair question, the answer is straightforward, and nothing should be a surprise at the end.',
       },
       {
         q: 'How long will my case take?',

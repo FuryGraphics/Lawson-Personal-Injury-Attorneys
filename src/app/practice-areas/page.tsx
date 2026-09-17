@@ -70,8 +70,7 @@ export default function PracticeAreasPage() {
               <p className="max-w-measure">
                 The firm represents people hurt in vehicle collisions of every kind, people injured on
                 property that was not maintained, and families who have lost someone to another
-                party’s negligence. Consultations are free, and there is no fee unless there is a
-                recovery.
+                party’s negligence. Consultations are free and carry no obligation.
               </p>
             </div>
           </div>

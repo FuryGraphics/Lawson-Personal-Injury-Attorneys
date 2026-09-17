@@ -95,7 +95,7 @@ export default function Header() {
           <p className="label text-white/50">
             {site.addressLine}
             <span className="mx-3 text-white/20">/</span>
-            <span className="text-crest">No fee unless we win</span>
+            <span className="text-crest">Open 24 hours</span>
           </p>
           <p className="label flex items-center gap-3 text-white/50">
             Answered 24/7
@@ -303,7 +303,7 @@ export default function Header() {
               <a href={site.phoneHref} className="btn-outline-light w-full">
                 Call {site.phone}
               </a>
-              <p className="label mt-2 text-center text-white/40">No fee unless we win</p>
+              <p className="label mt-2 text-center text-white/40">Free, confidential case review</p>
             </div>
           </nav>
         </div>

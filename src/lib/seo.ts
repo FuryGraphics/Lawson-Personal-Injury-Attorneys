@@ -124,7 +124,6 @@ export function legalServiceSchema() {
     email: site.email,
     address: postalAddress,
     geo,
-    priceRange: 'Contingency fee — no fee unless we win',
     areaServed,
     knowsAbout: [
       'Personal injury law',
@@ -161,7 +160,6 @@ export function localBusinessSchema(opts: { path: string; cityName: string; desc
     email: site.email,
     address: postalAddress,
     geo,
-    priceRange: 'Contingency fee — no fee unless we win',
     areaServed: { '@type': 'City', name: `${opts.cityName}, GA` },
     parentOrganization: { '@id': `${site.url}/#organization` },
     openingHoursSpecification: [openingHours],

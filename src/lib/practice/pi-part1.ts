@@ -18,7 +18,7 @@ export const carAccidents: PracticePage = {
   targetKeyword: 'Car Accident Lawyer Lawrenceville GA',
   metaTitle: 'Car Accident Lawyer Lawrenceville GA',
   metaDescription:
-    'Injured in a Lawrenceville car accident? We handle Georgia crash and uninsured motorist claims, with no fee unless we win. Free review — (678) 446-3655.',
+    'Injured in a Lawrenceville car accident? We handle Georgia crash, hit-and-run and uninsured motorist claims. Free case review — call (678) 446-3655 today.',
   label: 'Case type',
   deck: 'The insurance company opened a file on your crash within hours. You should have someone doing the same for you.',
   cardBlurb:
@@ -111,7 +111,7 @@ export const carAccidents: PracticePage = {
     },
     {
       q: 'What does it cost to hire you?',
-      a: 'Nothing up front. We work on a contingency fee — the fee is a percentage of what we recover, and if there is no recovery there is no fee. Case expenses are explained in writing before the representation begins, so nothing about the arrangement is a surprise at the end.',
+      a: 'Nothing up front. The fee and the way case expenses are handled are both set out in writing before any representation begins, so nothing about the arrangement is a surprise at the end. Ask on the first call — it is a fair question and the answer is straightforward.',
     },
   ],
   related: ['truck-accidents', 'pedestrian-accidents', 'motorcycle-accidents'],
@@ -126,7 +126,7 @@ export const truckAccidents: PracticePage = {
   targetKeyword: 'Truck Accident Lawyer Lawrenceville GA',
   metaTitle: 'Truck Accident Lawyer Lawrenceville GA',
   metaDescription:
-    'Hit by a commercial truck in Lawrenceville? We pursue trucking companies under federal safety rules. Free case review, no fee unless we win — (678) 446-3655.',
+    'Hit by a commercial truck in Lawrenceville? We pursue the trucking company itself under federal safety rules. Free case review — call (678) 446-3655 today.',
   label: 'Case type',
   deck: 'A trucking company can have investigators at the scene before the road reopens. The evidence that decides your case starts disappearing that fast.',
   cardBlurb:

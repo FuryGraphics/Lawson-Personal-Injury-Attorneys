@@ -11,7 +11,7 @@ export const premisesLiability: PracticePage = {
   targetKeyword: 'Premises Liability Lawyer Lawrenceville GA',
   metaTitle: 'Premises Liability Lawyer Lawrenceville GA',
   metaDescription:
-    'Hurt on unsafe property in Lawrenceville? Georgia premises claims turn on what the owner knew and ignored. Free review, no fee unless we win — (678) 446-3655.',
+    'Hurt on unsafe property in Lawrenceville? Georgia premises liability claims turn on what the owner knew. Free case review — call (678) 446-3655 today.',
   label: 'Case type',
   deck: 'Property owners are not insurers of everyone who walks in. They are responsible for what they knew, or should have known, and left alone.',
   cardBlurb:
@@ -171,7 +171,7 @@ export const workplaceAccidents: PracticePage = {
   targetKeyword: 'Workplace Injury Lawyer Lawrenceville GA',
   metaTitle: 'Workplace Injury Lawyer Lawrenceville GA',
   metaDescription:
-    'Hurt at work by someone other than your employer? That is a separate claim from workers\' comp, and it carries fuller damages. Free review — (678) 446-3655.',
+    'Hurt at work by someone other than your employer? That is a separate claim from workers\' comp, and it carries fuller damages. Call (678) 446-3655 now.',
   label: 'Case type',
   deck: 'If someone other than your employer caused your injury, you may have a claim workers’ compensation does not touch.',
   cardBlurb:

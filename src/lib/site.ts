@@ -160,11 +160,11 @@ export const serviceAreaNames = serviceAreas.map((a) => a.name);
  * them. See TRUST_BAR_TODO.
  */
 export const trustBar = [
-  { stat: 'No fee', label: 'unless we win your case' },
+  { stat: '24/7', label: 'phones answered around the clock' },
   { stat: 'Free', label: 'confidential case review' },
   { stat: 'Direct', label: 'access to your attorney' },
-  { stat: 'Metro-wide', label: 'Atlanta and Gwinnett County' },
+  { stat: 'Gwinnett', label: 'and the metro Atlanta counties' },
 ];
 
 export const TRUST_BAR_TODO =
-  'TODO(client): if Yari wants years-in-practice, case volume, or recovery figures in the trust bar, supply the substantiated numbers and they will replace two of these cells. Every such claim needs the results disclaimer alongside it under Georgia RPC 7.1.';
+  'TODO(client): if Yari wants years-in-practice, case volume, or recovery figures in the trust bar, supply the substantiated numbers and they will replace two of these cells. Every such claim needs the results disclaimer alongside it under Georgia RPC 7.1. Note the firm asked that "no fee unless we win" not appear anywhere on the site — do not reintroduce it here.';

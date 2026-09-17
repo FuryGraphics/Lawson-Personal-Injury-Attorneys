@@ -44,7 +44,7 @@ export default function Footer() {
             >
               {site.phone}
             </a>
-            <p className="label mt-4 text-white/40">Free case review · No fee unless we win</p>
+            <p className="label mt-4 text-white/40">Free case review · Answered 24 hours</p>
           </div>
         </div>
 

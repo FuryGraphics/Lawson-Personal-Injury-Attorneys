@@ -83,7 +83,7 @@ export const locationPages: LocationPage[] = [
     intro: [
       'Lawrenceville is home. The office is at 320 S Perry Street, on the square in the middle of downtown, a few minutes’ walk from the Gwinnett Justice and Administration Center where this county’s injury cases are filed and tried. Being local is not a marketing line here — it is why a client can drop off records in person and why we know the intersections in the police reports we read.',
       'Gwinnett County has grown faster than its road network. Georgia 316 carries commuter and commercial traffic at interstate speeds through at-grade intersections, Sugarloaf Parkway and Lawrenceville-Suwanee Road move volume the original design never contemplated, and the I-85 corridor through Gwinnett is one of the heaviest freight routes in the state. The collisions that follow are the core of what this firm does.',
-      'Lawson Personal Injury Attorneys handles car, truck, motorcycle, and pedestrian collisions, premises liability claims against stores and apartment complexes, and wrongful death cases for Gwinnett County families. The consultation is free, the conversation is confidential, and there is no fee unless we recover for you.',
+      'Lawson Personal Injury Attorneys handles car, truck, motorcycle, and pedestrian collisions, premises liability claims against stores and apartment complexes, and wrongful death cases for Gwinnett County families. The consultation is free and the conversation is confidential.',
     ],
     court: {
       name: 'Gwinnett Justice and Administration Center',

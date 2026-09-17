@@ -15,7 +15,7 @@ type Props = {
  */
 export default function CTABand({
   heading = 'Talk to a lawyer before you talk to the adjuster.',
-  body = 'The consultation is free and confidential, and there is no fee unless we win. If we think you do not need us, we will tell you that too.',
+  body = 'The consultation is free and confidential, and it carries no obligation. If we think you do not need us, we will tell you that too.',
   secondary = { label: 'Read the Injury FAQ', href: '/personal-injury/faq' },
 }: Props) {
   return (

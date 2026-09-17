@@ -165,7 +165,7 @@ export default function PersonalInjuryPage() {
                 people can evaluate against a professional adjuster.
               </p>
               <p className="max-w-measure">
-                The other half is structural. Contingency fees mean the cost of finding out is zero. A
+                The other half is structural. Finding out what you are dealing with costs nothing. A
                 consultation does not obligate you to hire anyone, and if the honest answer is that the
                 case does not need a lawyer, that is the answer you will get.
               </p>

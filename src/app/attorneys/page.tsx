@@ -17,7 +17,7 @@ const crumbs = [
 export const metadata = pageMeta({
   title: 'Our Attorneys',
   description:
-    'Meet the attorneys at Lawson Personal Injury Attorneys, serving Atlanta and Gwinnett County, GA. Free case review, no fee unless we win — (678) 446-3655.',
+    'Meet the attorneys at Lawson Personal Injury Attorneys, serving Lawrenceville and Gwinnett County, GA. Free, confidential case review — (678) 446-3655.',
   path: '/attorneys',
 });
 
